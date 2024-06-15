@@ -1,0 +1,183 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  z-index: 999;
+  padding: 13px;
+  box-shadow: #444;
+}
+
+.dark.top {
+  background-color: #333;
+  color: white;
+}
+
+.topLeft, .topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItemOne {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topListItemLog {
+  align-self: center;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 18px;
+}
+
+.dark .topIcon {
+  color: whitesmoke;
+}
+
+.dark .topSearchIcon {
+  color: whitesmoke;
+}
+
+.modeIcon {
+  margin: 4px;
+  font-size: 22px;
+}
+
+.mode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 100;
+  color: #666;
+  margin-right: 8px;
+}
+
+.hamburger {
+  display: none;
+}
+.out{
+  display: none;
+}
+
+/* media query for phone */
+@media (max-width: 768px) {
+  .topListItemOne {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #666;
+  }
+  .show-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .show-nav .topList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show-nav .topListItem {
+    margin: 20px 0;
+    font-size: 24px;
+    align-self: center;
+  }
+
+  .show-nav .topListItemLog {
+    margin-top: 20px;
+  }
+
+  .show-nav .homeButton {
+    margin-top: 20px;
+  }
+
+  .show-nav .topCenter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .show-nav .topRight {
+    display: none;
+  }
+
+  .show-nav .topLeft {
+    display: none;
+  }
+
+  .dark .show-nav .topList {
+    background-color: #333;
+    color: white;
+  }
+
+  .dark .hamburger {
+    color: whitesmoke;
+  }
+  .show-nav .out{
+    display: block;
+  }
+  .out{
+    display: none;
+  }
+}

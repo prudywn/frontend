@@ -1,0 +1,83 @@
+.settings{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: violet;
+    cursor: pointer;
+}
+
+.settingsDeleteTitle{
+    font-size: 18px;
+    color:rebeccapurple ;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.settingsProfile{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px, 0;
+}
+
+.settingsProfile > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsProfilePicIcon{
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: sienna;
+}
+
+.settingsForm >label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    padding: 10px;
+    font-size: 20px;
+    color:rgb(90, 89, 89);
+    border: none;
+    background-color: rgb(255, 243, 229);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px, 0;
+    border-bottom: 1px solid;
+}
+
+.settingsSubmit{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}

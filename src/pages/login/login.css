@@ -1,0 +1,68 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url('https://getwallpapers.com/wallpaper/full/f/c/5/868565-free-background-images-of-nature-2560x1600.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    
+}
+
+.loginTitle{
+    font-size: 50px;
+    font-weight: 800;
+    color: thistle;
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(250, 235, 215, 0.5); */
+}
+
+.loginForm>label{
+    margin: 10px ,0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color:beige ;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    outline: navajowhite;
+    }
+
+
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: thistle;
+    padding: 10px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 20px;
+    
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 20px;
+}
+

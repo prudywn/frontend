@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+.post{
+    width: 500px;
+    margin: 0px 25px 0px 25px;
+}
+
+.image-gallery{
+   display: grid;
+   grid-template-columns: repeat(2, 100%);
+   gap: 10px;
+    
+}
+
+.images{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.tags{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans;
+    font-size: 16px;
+    margin-top: 0;
+    display: flex;
+}
+
+.btn{
+    color: #af4c5d;
+   
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+   
+    padding: 10px;
+}
+
+.search-input{
+    padding: 15px;
+    width: 400px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Playwrite','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tag{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.read{
+    color: peachpuff;
+    font-family: cursive;
+    font-style: italic;
+    padding: 5px;
+}

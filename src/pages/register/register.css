@@ -1,0 +1,68 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/607/647/769/nature-4k-background-for-computer-wallpaper-preview.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.registerTitle{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(15, 14, 15);
+    display: flex;
+    justify-content: center;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(250, 235, 215, 0.5); */
+}
+
+.registerForm>label{
+    margin: 10px ,0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color:beige ;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    outline: navajowhite;
+    }
+
+
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: thistle;
+    padding: 10px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 20px;
+    
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 20px;
+}
+

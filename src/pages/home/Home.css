@@ -1,0 +1,33 @@
+.home{
+    display: flex;
+    
+}
+.dark.home {
+    background-color: #121212;
+    color: white;
+  }
+
+  .chatbot{
+    position: sticky;
+   bottom: 50%;
+   display: flex;
+  }
+  .chatbotIcon{
+    position: relative;
+    font-size: 30px;
+    color: greenyellow;
+  }
+  .chatbottext{
+    position: absolute;
+    top: -105%;
+    left: 2%;
+    font-size: 18px;
+    color:greenyellow;
+  }
+
+  /* .homeBgcolor{
+    background-color: white;
+  }
+  .dark .homeBgcolor{
+    background-color: #121212;
+  } */

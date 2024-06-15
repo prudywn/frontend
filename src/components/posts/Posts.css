@@ -1,0 +1,12 @@
+.posts {
+   flex: 12;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 80px;
+   margin-left: 20px;
+}
+
+.dark .posts {
+   background-color: #121212;
+   color: #e0e0e0;
+}

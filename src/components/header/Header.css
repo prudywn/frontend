@@ -1,0 +1,44 @@
+.header{
+    margin-top: 60px;
+}
+.dark .header {
+    background-color: #1e1e1e;
+    color: #000000;
+  }
+  
+
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444;
+}
+.dark .headerTitle{
+     color: #10359b;
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 10%;
+    font-size: 15px;
+}
+.dark .headerTitleSm{
+    color: #10359b;
+}
+.headerTitleLg{
+    position: absolute;
+    top: 13%;
+    font-size: 100px;
+    color: black;
+}
+.dark .headerTitleLg{
+    color: #10359b;
+}
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 8px;
+    object-fit: cover;
+}
+
